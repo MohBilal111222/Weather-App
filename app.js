@@ -20,3 +20,10 @@ form.addEventListener('submit', (e)=>{
             </div>
           </div>
     `;
+    div.innerHTML = weatherCard + div.innerHTML;
+    input.value = '';
+    })
+   .catch((error)=>{
+    console.log(error)
+    })
+})
