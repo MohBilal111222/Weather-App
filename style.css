@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.head{
+    text-align: center;
+    margin: 20px;
+}
+form{
+    text-align: center;
+    margin: 20px; 
+}
+input{
+    width: 500px;
+    padding: 14px 16px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.bn{
+    padding: 14px 20px;
+
+}
+
+.form-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+body{
+    background-color: black;
+}
+
+
+.form-cards-js{
+    background-image: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/pure-nature-landscape-single-tree-in-green-field-free-photo.jpg?w=600&quality=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width:560px){
+    input{
+        width: 300px;
+    }
+    form{
+        text-align: center;
+        margin: 20px; 
+    }
+}
+
+@media (max-width:365px){
+    input{
+        width: 200px;
+    }
+    form{
+        text-align: center;
+        margin: 20px; 
+    }
+}
+
+h1{
+    color: aliceblue;
+}
+
+
+footer{
+    color: white;
+}
